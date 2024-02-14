@@ -1,0 +1,259 @@
+body{
+      font-family: 'Playfair Display', serif;
+      color:#2E639B;
+       background-image: linear-gradient(rgba(143, 213, 248, 0.8), rgba(143, 213, 248,0.6)),
+      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/355/original/living_my_best_life_in_kalokairi.jpeg?1685837599");
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+
+    .container3{
+      max-width: 1400px;
+      margin: 0 auto;
+      text-align: left;
+      padding: 15px;
+    }
+
+       .primary{
+      background-color:  #E2F0FB;
+      max-width: 1400px;
+      margin: 0 auto;
+      text-align: left;
+      padding: 15px;
+       }
+
+
+
+
+    header{
+      background-image: linear-gradient(rgba(240, 244, 245, 0.9), rgba(176, 223, 247, 0.8)),
+      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/367/original/Mamma_Mia!_%282008%29.jpeg?1685847054");
+      background-repeat: none;
+      background-size: cover;
+      padding: 100px 0;
+    }
+
+    header h1{
+      font-size: 86px;
+      line-height: 1;
+      margin: 30px 0;
+      text-transform: uppercase;
+
+
+    }
+
+    header h2{
+      font-size: 62px;
+      line-height: 1;
+      margin: 30px 0;
+      text-transform: uppercase;
+      
+    }
+
+    header h3{
+      font-size: 17px;
+      
+    }
+
+    header h4{
+      font-size: 12px;
+      letter-spacing: 5px;
+    }
+
+
+
+    iframe{
+      margin: 0 auto;
+      display:block;
+    }
+
+
+    .container2{
+      background: #f8f8f8;
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: left;
+      padding: 15px;
+      margin-bottom: 40px;
+
+    }
+
+    .container2 h2{
+       font-size: 42px;
+      line-height: 1;
+      margin: 30px 0;
+      letter-spacing: 5px;
+      font-style: italic;
+
+    }
+
+    .grid-2-columns{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap:10px;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 25px;
+     
+    }
+
+     #gridimage{
+      width:50%;
+      display:block;
+    }
+
+    #paragraphlinks{
+      color:#2E639B;
+      text-decoration: none;
+    }
+
+     #paragraphlinks :hover{
+      color:#E2F0FB;
+      text-decoration:underline;
+      cursor:pointer;
+     }
+
+    .container{
+      background: #ffff;
+      max-width: 1400px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+   
+
+    .embed{
+      width:100%;
+      aspect-ratio: 1/1;
+    }
+
+    .img-responsive{
+      width:100%;
+      display: block;
+    }
+
+    
+
+    .grid-3-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 64px;
+    }
+
+    .card{
+      background-color:#ffff;
+      margin: 30px 0;
+      text-align: center;
+      padding: 15px;
+      
+    }
+
+    .card a{
+      color:#2E639B;
+      text-decoration: none;
+    }
+
+  .card a:hover{
+     color: #E2F0FB;
+  }
+
+
+    button{
+      background: #E2F0FB;
+      border-color: #2E639B;
+      padding: 15px;
+      box-shadow:5px;
+      border-radius:8px;
+    }
+
+    button:hover{
+      background:#2E639B;
+     
+      
+    }
+
+
+
+    footer{
+       background:#E2F0FB;
+       color: #2E639B;
+       display:grid;
+       grid-template-columns: 1fr 1fr 1fr;
+        font-size: 15px;
+        padding: 20px 20px;
+    }
+
+    
+
+    footer a{
+       color: #2E639B;
+       text-decoration: none;
+    }
+
+    footer a:hover{
+      text-decoration:underline;
+      cursor:pointer;
+    }
+
+   footer li{
+      list-style: none;
+      margin: 20px 0;
+      
+     
+    }
+
+    footer ul{
+      padding: 5px;
+
+    }
+
+    @media(max-width: 960px){
+      header {
+        padding: 60px 0;
+      }
+
+      header h1{
+        font-size: 48px;
+      }
+
+      header h2{
+        font-size: 20px;
+      }
+
+      header h3{
+        font-size: 12px;
+      }
+
+      header h4{
+        font-size: 8px;
+      }
+
+      .embed{
+       width:50%;
+      aspect-ratio: 16/9;
+  
+  }
+
+      .grid-3-columns{
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+      }
+
+      .grid-2-columns{
+        grid-template-columns: 1fr;
+      }
+
+
+      .photos{
+    display:none;
+      }
+
+      footer{
+        grid-template-columns: 2fr;
+    
+      }
+
+
+    
+
+    }
