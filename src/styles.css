@@ -120,12 +120,6 @@ body{
       text-align: center;
     }
 
-   
-
-    .embed{
-      width:100%;
-      aspect-ratio: 1/1;
-    }
 
     .img-responsive{
       width:100%;
@@ -244,9 +238,9 @@ body{
         font-size: 8px;
       }
 
-      .embed{
-       width:50%;
-      aspect-ratio: 16/9;
+      iframe{
+       width:100%;
+       aspect-ratio: 16/9;
   
   }
 
