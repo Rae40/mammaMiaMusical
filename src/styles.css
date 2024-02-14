@@ -172,6 +172,22 @@ body{
       
     }
 
+      .designed {
+      text-align: center;
+      opacity: 30%;
+     
+
+    }
+
+    .designed a{
+       text-decoration: none;
+    }
+
+
+    .designed a:hover{
+      text-decoration: underline;
+    }
+
 
 
     footer{
